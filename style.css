@@ -22,7 +22,12 @@ main {
   height: 500px;
 }
 
+.container-families {
+  display: flex;
+}
+
 .container-family {
   display: flex;
   flex-direction: column;
 }
+
