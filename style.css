@@ -31,3 +31,7 @@ main {
   flex-direction: column;
 }
 
+.div-textarea {
+  display: flex;
+  flex-direction: column;
+}
