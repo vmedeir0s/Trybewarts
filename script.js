@@ -1,6 +1,6 @@
-let positionEmail = document.querySelector('#email-header');
-let positionPassword = document.querySelector('#password-header');
-let positionButton = document.querySelector('#button-header');
+const positionEmail = document.querySelector('#email-header');
+const positionPassword = document.querySelector('#password-header');
+const positionButton = document.querySelector('#button-header');
 
 function verificaLogin() {
   if (positionEmail.value === 'tryber@teste.com' && positionPassword.value === '123456') {
