@@ -22,20 +22,15 @@ function verificaChecked() {
   }
 }
 
-function subtrai() {
-  const valor = Number(valordeP.innerText);
-  valordeP.innerText = valor - 1;
+// Função que vai atribuir a contagem ao InnerHTML do contador
+function contagemLimite() {
+  // Subtrai do Limite estipulado de caracteres (500) o tamanho do texto digitado e adiciona ao innerHTML
+  valordeP.innerHTML = positionTextarea.maxLength - positionTextarea.value.length;
 }
-
-// function soma() {
-//   const valordeP = document.querySelector('#counter');
-//   const valor = Number(valordeP.innerText);
-//   valordeP.innerText = valor + 1;
-// }
 
 window.onload = function aplicacao() {
   positionButton.addEventListener('click', verificaLogin);
   positionCheckBox.addEventListener('click', verificaChecked);
-  positionTextarea.addEventListener('keypress', subtrai);
-  // positionTextarea.addEventListener('keydown', soma);
+  // Nosso erro estava aqui: o evento era o Input
+  positionTextarea.addEventListener('input', contagemLimite);
 };
