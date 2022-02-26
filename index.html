@@ -20,12 +20,12 @@
     <main>
       <form action="" method="get" id="evaluation-form">
         <div>
-          <input type="text" name="" id="input-name" placeholder="Nome">
-          <input type="text" name="" id="input-lastname" placeholder="Sobrenome">
+          <input type="text" name="name" id="input-name" placeholder="Nome">
+          <input type="text" name="lastname" id="input-lastname" placeholder="Sobrenome">
         </div>
         <div>
-          <input type="email" name="" id="input-email" placeholder="Email">
-          <select name="" id="house">
+          <input type="email" name="email" id="input-email" placeholder="Email">
+          <select name="house" id="house">
             <option value="Gitnória" id="gitnoria-house">Gitnória</option>
             <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
             <option value="Corvinode" id="corvinode-house">Corvinode</option>
@@ -40,12 +40,12 @@
             </div>
             <div class="container-family">
               <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
-              <label for="HoFs"><input type="checkbox" name="" id="HoFs" value="HoFs">HoFs</label>
-              <label for="Jest"><input type="checkbox" name="" id="Jest" value="Jest">Jest</label>
-              <label for="Promises"><input type="checkbox" name="" id="Promises" value="Promises">Promises</label>
-              <label for="React"><input type="checkbox" name="" id="React" value="React">React</label>
-              <label for="SQL"><input type="checkbox" name="" id="SQL" value="SQL">SQL</label>
-              <label for="Python"><input type="checkbox" name="" id="Python" value="Python">Python</label>
+              <label for="HoFs"><input type="checkbox" name="conteudo" id="HoFs" value="HoFs">HoFs</label>
+              <label for="Jest"><input type="checkbox" name="conteudo" id="Jest" value="Jest">Jest</label>
+              <label for="Promises"><input type="checkbox" name="conteudo" id="Promises" value="Promises">Promises</label>
+              <label for="React"><input type="checkbox" name="conteudo" id="React" value="React">React</label>
+              <label for="SQL"><input type="checkbox" name="conteudo" id="SQL" value="SQL">SQL</label>
+              <label for="Python"><input type="checkbox" name="conteudo" id="Python" value="Python">Python</label>
             </div>
           </section>
           <hr>
@@ -64,11 +64,11 @@
           </div>
           <div class="div-textarea">
             <label for="" class="textarea">Deixe seu comentário:</label>
-            <textarea name="" id="textarea" cols="30" rows="10" maxlength="500" ></textarea>
+            <textarea name="textarea" id="textarea" cols="30" rows="10" maxlength="500" ></textarea>
             <p id="counter">500</p>
           </div>
           <div>
-            <label for="agreement" id="label-infos">Você concorda com o uso das informações acima? <input type="checkbox" name="" id="agreement"></label>
+            <label for="agreement" id="label-infos">Você concorda com o uso das informações acima? <input type="checkbox" name="agreement" id="agreement"></label>
           </div>
           <button type="submit" id="submit-btn" disabled>Enviar</button>
         </div>
