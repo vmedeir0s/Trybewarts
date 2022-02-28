@@ -153,6 +153,10 @@ main {
   border-radius: 4px;
 }
 
+#submit-btn:disabled {
+  background-color: rgb(165, 155, 173);
+}
+
 footer {
   margin-top: auto;
   width: 100%;
