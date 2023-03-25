@@ -23,9 +23,7 @@ function verificaChecked() {
   }
 }
 
-// Função que vai atribuir a contagem ao InnerHTML do contador
 function contagemLimite() {
-  // Subtrai do Limite estipulado de caracteres (500) o tamanho do texto digitado e adiciona ao innerHTML
   valordeP.innerHTML = positionTextarea.maxLength - positionTextarea.value.length;
 }
 
@@ -72,7 +70,6 @@ function personalInformation() {
 window.onload = function aplicacao() {
   positionButton.addEventListener('click', verificaLogin);
   positionCheckBox.addEventListener('click', verificaChecked);
-  // Nosso erro estava aqui: o evento era o Input
   positionTextarea.addEventListener('input', contagemLimite);
   positionSubmit.addEventListener('click', personalInformation);
 };
