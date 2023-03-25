@@ -1,4 +1,4 @@
-<h1 align="center">Boas vindas ao repositório do Projeto TrybeWarts</h1>
+<h1>TrybeWarts 🧙‍♂️</h1>
 
 <h1>Sobre: </h1>
 <div>
